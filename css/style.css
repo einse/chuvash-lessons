@@ -1,0 +1,444 @@
+@import url(../font-arimo/font-arimo.css);
+@import url(a.css);
+
+
+
+/* Шрифт */
+
+body {
+  font-family:Arimo, sans-serif;
+  font-size:large;
+}
+
+.panitalic {
+  font-style:italic;
+}
+
+.barbar {
+  font-style:normal;
+}
+
+/* Общие настройки */
+
+* { margin:0; padding:0; }
+nav ul, section ul { list-style-type:none; }
+nav li { display:inline-block; }
+.hidden { display:none; visibility:hidden; }
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
+
+
+
+/* Цвета */
+
+header {
+  border-top:0.3em solid #5a00ab;
+}
+
+footer {
+  border-top:0.1em solid #5a00ab;
+}
+
+.logo, .active {
+  color:#5a00ab;
+}
+
+.chuvash {
+  color:darkmagenta;
+}
+
+
+
+/* Расположение элементов */
+
+body {
+  margin:0 auto;
+  max-width:22cm;
+}
+
+.logo {
+  width:49%;
+  float:left;
+}
+
+.menu {
+  float:right;
+}
+
+.copyright {
+  width:49%;
+  float:left;
+}
+
+.go-to-top {
+  float:right;
+}
+
+
+
+/* Общая типографика */
+
+header, article, .container, .bottom-menu {
+  padding:2%;
+}
+
+article, .container {
+  padding-top:1.5em;
+  padding-bottom:1.8em;
+}
+
+.lesson-list p {
+  font-size:0.94em;
+}
+
+.list-wrapper {
+  display:inline;
+  width:50%;
+  float:left;
+}
+
+.abc-list {
+  margin-bottom:1.8em;
+  margin-top:1.4em;
+}
+
+nav li {
+  margin-right:0.4em;
+}
+
+hgroup, .hgroup {
+  margin-bottom:1.2em;
+}
+
+h1 {
+  font-size:1.3em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top:1.0em;
+  margin-bottom:0.8em;
+}
+
+h2 {
+  font-size:1.1em;
+}
+
+h2.small {
+  font-size:1.0em;
+}
+
+h3, h4, h5, h6 {
+  font-size:1.0em;
+}
+
+p + h2 {
+  margin-top:1.2em;
+}
+
+.example-medium + h2, .small-script + h2, .small-script-cite + h2 {
+  margin-top:1.4em;
+}
+
+.alt-h {
+  font-size:1em;
+  font-weight:bold;
+  margin-top:0;
+}
+
+p {
+  margin-bottom:0.8em;
+  line-height:1.3em;
+}
+
+footer {
+  font-size:1.0em;
+  padding-bottom:0;
+  margin-top:1.0em; /* new */
+}
+
+.bottom-menu {
+  margin-bottom:0.4em;
+}
+
+li + li {
+  margin-top:0.2em;
+}
+
+.sources li + li {
+  margin-top:0.0em;
+}
+
+.sources li:first-child {
+  margin-top:0.2em;
+}
+
+.grammar-section .col30, .grammar-section .col4 {
+  margin-bottom:0.8em;
+}
+
+
+
+/* Врезки */
+
+.abc {
+  font-size:2em;
+  text-align:center;
+  padding:0 2em 0 1em;
+  margin-top:0.4em;
+  margin-bottom:0.6em;
+}
+
+.lit {
+  display:inline-block;
+  padding:0.1em 0.2em;
+}
+
+.lgroup {
+  display:inline-block;
+}
+
+.example-big {
+  font-size:1.2em;
+  text-align:center;
+  padding:0 2em;
+  margin-bottom:1em;
+}
+
+.word {
+  display:block;
+  text-align:center;
+  margin-left:1.5em;
+  margin-right:1.5em;
+}
+
+.wgroup {
+  display:inline-block;
+  margin-bottom:0.2em;
+}
+
+.example-medium {
+  font-size:1.0em;
+  font-style:italic;
+  text-align:left;
+  padding-left:5%;
+  margin-bottom:1.0em;
+}
+
+.example-small {
+  font-size:1em;
+  text-align:left;
+  padding:0 3.3em;
+  margin-bottom:1.0em;
+}
+
+
+/* Врезка "От автора" */
+
+.small-script {
+  background-color:khaki;
+  padding:0.5em;
+  padding-left:0.8em;
+  border-radius:0.8em;
+  font-size:0.94em;
+  margin-top:1.0em;
+  margin-bottom:1.0em;
+}
+
+div + .small-script {
+  margin-top:2.0em;
+}
+
+.small-script > p:first-child:before {
+  content:"От автора: ";
+  font-style:italic;
+}
+
+.small-script p {
+  margin-bottom:0.4em;
+}
+
+.small-script p:last-child {
+  margin-bottom:0.0em;
+}
+
+.small-script blockquote {
+  padding-left:1.0em;
+  font-style:italic;
+}
+
+.small-script blockquote+blockquote {
+  padding-top:0.2em;
+}
+
+.small-script.cite > p:first-child:before {
+  content:"";
+}
+
+.small-script.cite {
+  background-color:silver;
+}
+
+
+/* Раздел "Источники" */
+
+footer .sources {
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.sources {
+  font-size:0.8em;
+  margin-bottom:2%;
+}
+
+.sources h1 {
+  font-size:inherit;
+  font-weight:inherit;
+}
+
+.sources h1:after {
+  content:":"
+}
+
+.sources p {
+  margin:0;
+}
+
+.sources li:before {
+  content:"— ";
+  margin-left:-1.24em;
+}
+
+.sources li+h1 {
+  margin-top:0.6em;
+}
+
+
+/* Раздел "Словарик" */
+
+footer .mini-dictionary {
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.mini-dictionary {
+  font-size:0.8em;
+  background-color:khaki;
+  border-bottom:0.3em solid darkmagenta;
+}
+
+.mini-dictionary h1 {
+  font-size:inherit;
+  font-weight:inherit;
+}
+
+.mini-dictionary p {
+  margin:0;
+  margin-left:33%;
+  text-indent:-33%;
+}
+
+
+
+/* Колонки */
+
+.col2, .col4, .col30, .col6, .col30-isolated, .col6-vw {
+  float:left;
+  padding-right:2%;
+}
+
+.col2 {
+  width:48%;
+}
+
+.col4 {
+  width:23%;
+}
+
+.col30, .col30-isolated {
+  width:31%;
+}
+
+.col6 {
+  width:14%;
+}
+
+.col6-vw {
+  width:12vw;
+}
+
+
+
+/* "Кнопки" страниц */
+
+.pages {
+  padding-bottom:2%;
+  padding-left:2%;
+  padding-right:2%;
+  margin-bottom:0.4em;
+}
+
+
+
+/* Вёрстка под мобильные устройства */
+
+@media only screen and (max-width:17cm) {
+  .col2, .col4, .col30 {
+    width:100%;
+  }
+  
+  .col6 {
+    width:30%;
+  }
+  
+  .list-wrapper {
+    padding:0.2em 0;
+    border-bottom:solid red 0.1em;
+    margin:0.2em 0;
+    display:block;
+    width:100%;
+  }
+  
+  .list-wrapper:last-child {
+    border-bottom:solid red 0.0em;
+  }
+  
+  .col6-vw {
+    width:27vw;
+  }
+  
+  .word {
+    margin-left:0.5em;
+    margin-right:0.5em;
+  }
+
+  .abc {
+    font-size:1.2em;
+  }
+    
+  .example-big {
+    font-size:1em;
+  }
+  
+  .logo, .copyright {
+    width:100%;
+    margin-bottom:0.2em;
+  }
+  
+  .menu, .go-to-top {
+    float:left;
+  }
+}
+
+
+
+/* Вёрстка под большие экраны */
+
+@media only screen and (min-width:24cm) {
+  .col6-vw {
+    width:3.3cm;
+  }
+}

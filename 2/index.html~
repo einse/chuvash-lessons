@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <title>2§. Базовая грамматика - Уроки чувашского языка</title>
+  <link rel="shortcut icon" href="../favicon.ico">
+  <style>
+    .lit, .lgroup, .word { display:inline-block; }
+    ul { list-style-type:none; }
+    nav ul { padding-left:0; }
+    body { font-family:sans-serif; }
+    h1 { font-size:1.3em; }
+    h2, h3, h4, h5, h6 { font-size:1em; }
+  </style>
+  <link rel="stylesheet" href="../css/style.css">
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <header class="clearfix">
+    <nav class="logo">
+      <ul>
+        <li class="active"><a href="../">Уроки чувашского языка</a></li>
+      </ul>
+    </nav>
+    <nav class="menu">
+      <ul>
+        <li><a href="../правила/">Правила чувашского языка</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <div class="hgroup">
+      <h1>2&sect;. Базовая грамматика</h1>
+    </div>
+    <h2>Имена существительные</h2>
+    <p>Это слова, которые отвечают на вопросы <em>&laquo;кто?&raquo; (кам?)</em> и <em>&laquo;что?&raquo; (мӗн?)</em> и которые однозначно обозначают предметы, понятия, явления. Отличия от имён существительных в русском языке:</p>
+    <p><em>1. Нет категории рода.</em> (Род не проявляется и в местоимениях: <em>он</em> и <em>она</em> переводятся одним словом <em>вӑл</em>.) </p>
+    <p><em>2. Множественное число используется реже.</em> В частности, с числительными всегда используется форма единственного языка: </p>
+    <div class="example-medium">
+      <ul>
+        <li>виҫӗ сехет те вунӑ минут &mdash; 03:10</li>
+      </ul>
+    </div>
+    <p>Более того, существительное в единственном числе запросто может обозначать множественное число. В пословицах, к примеру:</p>
+    <div class="example-medium">
+      <ul>
+        <li>Куҫ хӑрать те, ал тӑвать. &mdash; Глаза боятся, а руки делают.</li>
+      </ul>
+    </div>
+    <p>Некоторые существительные вовсе не имеют формы множественного числа:</p>
+    <div class="example-medium">
+      <ul>
+        <li>укҫа &mdash; деньги</li>
+      </ul>
+    </div>
+    <p>Аффикс множественного числа &mdash; <em>сем</em>. Он непарный. </p>
+    <div class="example-medium">
+      <ul>
+        <li>урамсем &mdash; улицы</li>
+        <li>куҫсем &mdash; глаза</li>
+      </ul>
+    </div>
+    <h2>Местоимения</h2>
+    <p>Личные местоимения:</p>
+    <div class="example-medium">
+      <ul>
+        <li>эпӗ &mdash; я</li>
+        <li>эсӗ &mdash; ты</li>
+        <li>вӑл &mdash; он</li>
+        <li>эпир &mdash; мы</li>
+        <li>эсир &mdash; вы</li>
+        <li>вӗсем &mdash; они</li>
+      </ul>
+    </div>
+    <p>Склонение местоимений приведено на странице <a href="../падежи/">Местоимения</a>.</p>
+    <h2>Падежи</h2>
+    <p>Имена существительные и местоимения изменяются <em>(склоняются)</em> по 8 падежам. Список падежей и примеры склонения &mdash; на специальной странице <a href="../падежи/">Падежи</a>.</p>
+    <h2>Глаголы</h2>
+    <p>Начальная форма глагола (которая даётся в словарях) соответствует <em>повелительному наклонению:</em></p>
+    <div class="example-medium">
+      <ul>
+        <li>вула &mdash; читай</li>
+        <li>ӗҫле &mdash; работай</li>
+      </ul>
+    </div>
+    <p><em>Инфинитив</em> (неопределённая форма глагола) образуется при помощи аффикса <em>-ма/-ме:</em></p>
+    <div class="example-medium">
+      <ul>
+        <li>вулама &mdash; читать</li>
+        <li>ӗҫлеме &mdash; работать</li>
+      </ul>
+    </div>
+    <p><em>Причастие прошедшего времени</em> (часто используется вместо полноценного глагола в прошедшем времени):</p>
+    <div class="example-medium">
+      <ul>
+        <li>вуланӑ &mdash; читал, читавший</li>
+        <li>ӗҫленӗ &mdash; работал, работавший</li>
+        <li>вуланӑ ҫын &mdash; читавший человек</li>
+        <li>кӗнеке вуланӑ ҫын &mdash; человек, читавший книгу</li>
+        <li>(Ҫын кӗнеке вуланӑ. / Ҫын кӗнекене вуланӑ. &mdash; Человек читал книгу.)</li>
+      </ul>
+    </div>
+    <p>Если глагол <a target="_blank" href="https://ru.wikipedia.org/wiki/Переходный_глагол"><em>переходный</em></a>, причастие может переводиться на русский язык как страдательное причастие прошедшего времени: </p>
+    <div class="example-medium">
+      <ul>
+        <li>вуланӑ кӗнеке &mdash; книга, которую читали (&laquo;читанная&raquo; книга)</li>
+        <li>илтнӗ сӑмах &mdash; услышанное слово</li>
+        <li>вӑл каланӑ сӑмахсем &mdash; сказанные им слова</li>
+        <li>(Вӑл сӑмахсем каланӑ. / Вӑл сӑмахсене каланӑ. &mdash; Он произнёс слова.)</li>
+      </ul>
+    </div>
+  </article>
+  <section class="pages">
+    <h1 class="hidden">Список страниц</h1>
+    <ul>
+      <li class="active">Страница 1: Имя существительное. Местоимение. Глагол</li>
+      <li><a href="2/">Страница 2: Личные формы глагола. Особенности синтаксиса чувашских предложений. Причастие будущего времени</a></li>
+    </ul>
+  </section>
+  <section class="pages">
+    <h1 class="hidden">Список уроков</h1>
+    <ul>
+      <li><a href="../1/">Урок 1 &mdash; Как читать чувашские слова</a></li>
+      <li class="active">Урок 2 &mdash; Базовая грамматика</li>
+    </ul>
+  </section>
+  <footer>
+    <div class="bottom-menu clearfix">
+      <nav class="copyright">
+        <ul>
+          <li><a href="../о-сайте/">О сайте</a></li>
+        </ul>
+      </nav>
+      <nav class="go-to-top">
+        <ul>
+          <li><a href="#top">К началу страницы</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter22192942 = new Ya.Metrika({id:22192942});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/22192942" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body><!-- done -->
+</html>
