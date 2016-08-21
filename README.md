@@ -2,7 +2,7 @@
 ## Description
 Data for my 'Chuvash lessons' site: [урокичувашского.рф](http://урокичувашского.рф)
 
-## License
+## Licensing
 MIT for the code and CC BY 3.0 for the content (if otherwise not mentioned).
 
 ## Contributing
